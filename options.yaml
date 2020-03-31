@@ -1,0 +1,200 @@
+# List of key names: https://docs.rs/winit/0.19.5/winit/enum.VirtualKeyCode.html
+# List of gamepad button names: https://docs.rs/gilrs/0.7.2/gilrs/ev/enum.Button.html
+# List of gamepad axis names: https://docs.rs/gilrs/0.7.2/gilrs/ev/enum.Axis.html
+# To choose the positive/negative direction of an axis by writing PositiveAxis
+# or NegativeAxis in place of Button.
+# Binding multiple inputs to a single action is currently not possible.
+# The default max_nodes under bot options is the largest valid value.
+# Valid movement modes are ZeroG (default), TwentyG, and HardDropOnly
+# Everything is measured in frames, except for gravity, which is measured in
+# frames per row times 100.
+# 0 ARR and 0 soft drop speed are both instant.
+---
+p1:
+  controls:
+    keyboard:
+      left: Left
+      right: Right
+      rotate_left: Z
+      rotate_right: X
+      hard_drop: Space
+      soft_drop: Down
+      hold: C
+    gamepad:
+      left:
+        Button: DPadLeft
+      right:
+        Button: DPadRight
+      rotate_left:
+        Button: South
+      rotate_right:
+        Button: East
+      hard_drop:
+        Button: DPadUp
+      soft_drop:
+        Button: DPadDown
+      hold:
+        Button: LeftTrigger
+  game:
+    spawn_delay: 7
+    line_clear_delay: 35
+    delayed_auto_shift: 9
+    auto_repeat_rate: 2
+    soft_drop_speed: 2
+    lock_delay: 30
+    gravity: 4500
+    next_queue_size: 5
+    max_garbage_add: 10
+    move_lock_rule: 15
+    garbage_blocking: false
+  is_bot: false
+  bot_config:
+    weights:
+      back_to_back: 52
+      bumpiness: -24
+      bumpiness_sq: -7
+      height: -39
+      top_half: -150
+      top_quarter: -511
+      jeopardy: -5
+      cavity_cells: -158
+      cavity_cells_sq: -7
+      overhang_cells: -48
+      overhang_cells_sq: 1
+      covered_cells: -17
+      covered_cells_sq: -1
+      tslot:
+        - 8
+        - 148
+        - 192
+        - 407
+      well_depth: 57
+      max_well_depth: 17
+      well_column:
+        - 20
+        - 23
+        - 20
+        - 50
+        - 59
+        - 21
+        - 59
+        - 10
+        - -10
+        - 24
+      b2b_clear: 104
+      clear1: -143
+      clear2: -100
+      clear3: -58
+      clear4: 390
+      tspin1: 121
+      tspin2: 410
+      tspin3: 602
+      mini_tspin1: -158
+      mini_tspin2: -93
+      perfect_clear: 999
+      combo_garbage: 150
+      move_time: -3
+      wasted_t: -152
+      use_bag: true
+      sub_name: ~
+    options:
+      mode: ZeroG
+      use_hold: true
+      speculate: true
+      min_nodes: 0
+      max_nodes: 4000000000
+      threads: 1
+p2:
+  controls:
+    keyboard:
+      left: Left
+      right: Right
+      rotate_left: Z
+      rotate_right: X
+      hard_drop: Space
+      soft_drop: Down
+      hold: C
+    gamepad:
+      left:
+        Button: DPadLeft
+      right:
+        Button: DPadRight
+      rotate_left:
+        Button: South
+      rotate_right:
+        Button: East
+      hard_drop:
+        Button: DPadUp
+      soft_drop:
+        Button: DPadDown
+      hold:
+        Button: LeftTrigger
+  game:
+    spawn_delay: 7
+    line_clear_delay: 35
+    delayed_auto_shift: 9
+    auto_repeat_rate: 2
+    soft_drop_speed: 2
+    lock_delay: 30
+    gravity: 4500
+    next_queue_size: 5
+    max_garbage_add: 10
+    move_lock_rule: 15
+    garbage_blocking: false
+  is_bot: true
+  bot_config:
+    weights:
+      back_to_back: 52
+      bumpiness: -24
+      bumpiness_sq: -7
+      height: -39
+      top_half: -150
+      top_quarter: -511
+      jeopardy: -5
+      cavity_cells: -158
+      cavity_cells_sq: -7
+      overhang_cells: -48
+      overhang_cells_sq: 1
+      covered_cells: -17
+      covered_cells_sq: -1
+      tslot:
+        - 8
+        - 148
+        - 192
+        - 407
+      well_depth: 57
+      max_well_depth: 17
+      well_column:
+        - 20
+        - 23
+        - 20
+        - 50
+        - 59
+        - 21
+        - 59
+        - 10
+        - -10
+        - 24
+      b2b_clear: 104
+      clear1: -143
+      clear2: -100
+      clear3: -58
+      clear4: 390
+      tspin1: 121
+      tspin2: 410
+      tspin3: 602
+      mini_tspin1: -158
+      mini_tspin2: -93
+      perfect_clear: 999
+      combo_garbage: 150
+      move_time: -3
+      wasted_t: -152
+      use_bag: true
+      sub_name: ~
+    options:
+      mode: ZeroG
+      use_hold: true
+      speculate: true
+      min_nodes: 0
+      max_nodes: 4000000000
+      threads: 1
