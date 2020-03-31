@@ -47,7 +47,7 @@ p1:
     max_garbage_add: 10
     move_lock_rule: 15
     garbage_blocking: false
-  is_bot: false
+  is_bot: true
   bot_config:
     weights:
       back_to_back: 52
@@ -85,10 +85,10 @@ p1:
       clear1: -143
       clear2: -100
       clear3: -58
-      clear4: 390
+      clear4: 512
       tspin1: 121
       tspin2: 410
-      tspin3: 602
+      tspin3: 768
       mini_tspin1: -158
       mini_tspin2: -93
       perfect_clear: 999
