@@ -52,8 +52,8 @@ p1:
     weights:
       back_to_back: 52
       bumpiness: -24
-      bumpiness_sq: -7
-      height: -39
+      bumpiness_sq: -12
+      height: -64
       top_half: -150
       top_quarter: -511
       jeopardy: -5
@@ -146,7 +146,7 @@ p2:
     weights:
       back_to_back: 52
       bumpiness: -24
-      bumpiness_sq: -7
+      bumpiness_sq: -12
       height: -39
       top_half: -150
       top_quarter: -511
@@ -179,10 +179,10 @@ p2:
       clear1: -143
       clear2: -100
       clear3: -58
-      clear4: 390
+      clear4: 512
       tspin1: 121
       tspin2: 410
-      tspin3: 602
+      tspin3: 768
       mini_tspin1: -158
       mini_tspin2: -93
       perfect_clear: 999
