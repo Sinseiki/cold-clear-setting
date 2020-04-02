@@ -53,8 +53,8 @@ p1:
       back_to_back: 52
       bumpiness: -24
       bumpiness_sq: -12
-      height: -64
-      top_half: -150
+      height: -24
+      top_half: -75
       top_quarter: -511
       jeopardy: -5
       cavity_cells: -158
@@ -147,7 +147,7 @@ p2:
       back_to_back: 52
       bumpiness: -24
       bumpiness_sq: -12
-      height: -39
+      height: -24
       top_half: -150
       top_quarter: -511
       jeopardy: -5
