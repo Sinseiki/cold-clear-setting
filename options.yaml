@@ -54,13 +54,13 @@ p1:
       bumpiness: -24
       bumpiness_sq: -12
       height: -24
-      top_half: -75
+      top_half: -150
       top_quarter: -511
       jeopardy: -5
-      cavity_cells: -158
-      cavity_cells_sq: -7
-      overhang_cells: -48
-      overhang_cells_sq: 1
+      cavity_cells: -79
+      cavity_cells_sq: -8
+      overhang_cells: -3
+      overhang_cells_sq: 0
       covered_cells: -17
       covered_cells_sq: -1
       tslot:
@@ -151,9 +151,9 @@ p2:
       top_half: -150
       top_quarter: -511
       jeopardy: -5
-      cavity_cells: -158
-      cavity_cells_sq: -7
-      overhang_cells: -48
+      cavity_cells: -79
+      cavity_cells_sq: -8
+      overhang_cells: -3
       overhang_cells_sq: 1
       covered_cells: -17
       covered_cells_sq: -1
